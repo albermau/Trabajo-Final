@@ -1,0 +1,24 @@
+.container-footer {
+  height: 100px;
+  width: 100%;
+  background: rgb(68, 191, 248);;
+  bottom: 0;
+  margin-top: 200px;
+  box-shadow: 5px 5px 15px 3px rgb(253, 253, 253);
+}
+.int-footer {
+  color: white;
+  width: 100%;
+
+  text-align: center;
+  padding-top: 40px;
+}
+
+.css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input {
+  border-color: white;
+}
+@media all and (max-width: 600px) {
+  .container-footer {
+    font-size: 10px;
+  }
+}

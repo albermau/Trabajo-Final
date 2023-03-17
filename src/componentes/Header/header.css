@@ -1,0 +1,174 @@
+.appbar {
+  background: blue;
+}
+.toolbar {
+  height: 100px;
+  background: rgb(68, 191, 248);
+}
+.drawer {
+  background: black;
+}
+.closedMenu {
+  color: white;
+  font-size: 70px;
+  width: 40px;
+}
+.black {
+  background: white;
+}
+#activee {
+  color: white; 
+  border-bottom: 3px solid white;
+}
+#white{
+  color: white;
+}
+.link {
+  text-decoration: none;
+}
+.home {
+  color: white;
+}
+Button {
+  color: white;
+}
+.anuncios {
+  color: white;
+}
+.home {
+  color: white;
+}
+.MuiButtonBase-root {
+  color: white;
+}
+.contMenuRight{
+  margin-left: auto;
+  right: 0;
+  margin-right: 100px;
+}
+#contAnunUbica{
+  display: block;
+  margin-left: 120px;
+}
+.menuRight{
+  margin-right: 120px;
+  display: block;
+}
+.cont-registrarme{
+  display: block;
+}
+#btnregistrarme{
+  color: #fff;
+  text-decoration: none;
+}
+#btnMenuRight{
+  color: white;
+}
+#contBtnAnuncios{
+  display: block;
+}
+#btnUbicacion{
+  color: #d35276;
+}
+#iconMenuMobile{
+  display: none;
+}
+#drawerRight{
+  background-color: black;
+  color: white;
+}
+#itemMenuRightMobile{
+  display: none;
+}
+
+
+@media all and (max-width: 1000px) {
+  #contAnunUbica{
+    display: block;
+    margin-left: 0px;
+    font-size: 15px;
+  }
+  #iconMenuMobile{
+    display: none;
+  }
+
+  .contMenuRight{
+    font-size: 10px;
+  }
+  .menuRight{
+   
+    margin-right: 0px;
+  }
+ 
+}
+@media all and (max-width: 730px) {
+ 
+  #contAnunUbica{
+    display: block;
+    margin-left: 0px;
+    font-size: 15px;
+  }
+  .contMenuRight{
+    font-size: 10px;
+  }
+  .menuRight{
+    display: block;
+    margin-right: 0px;
+  }
+  .cont-registrarme{
+    display: none;
+  }
+  #contBtnAnuncios{
+    display: none;
+  }
+  #btnUbicacion{
+    display: none;
+  }
+  #iconMenuMobile{
+    display: none;
+    margin-top: 6px;
+  }
+  #drawer{
+    display: block;
+  }
+  #activee {
+   display: none;
+  }
+  #white{
+    color: white;
+  }
+  #itemMenuRightMobile{
+    display: block;
+  }
+}
+
+@media all and (max-width: 600px) {
+  #contAnunUbica{
+    display: block;
+    margin-left: 0px;
+    font-size: 15px;
+  }
+  .contMenuRight{
+    font-size: 10px;
+  }
+  .menuRight{
+    display: block;
+    margin-right: 50px;
+  }
+  .cont-registrarme{
+    display: none;
+  }
+  #contBtnAnuncios{
+    display: none;
+  }
+  #btnUbicacion{
+    display: none;
+  }
+  #iconMenuMobile{
+    display: none;
+  }
+  #itemMenuRightMobile{
+    display: block;
+  }
+}
+
